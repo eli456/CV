@@ -1,0 +1,21 @@
+<h3>Educacion y competencias</h3>
+<table border="2">
+
+    <ul *ngFor="let habilidad of skills">
+        <li>
+            <tr>
+                <td>{{habilidad.Nombre_Habilidad}}</td>
+            </tr>
+            <tr>
+                <td>{{habilidad.Descripcion}}</td>
+            </tr>
+            <tr>
+                <td>{{habilidad.Anos_experiencia}}</td>
+            </tr>
+            <tr>
+                <td>{{habilidad.PorcentajeDominio}}</td>
+            </tr>
+        </li>
+    </ul>
+
+</table>
